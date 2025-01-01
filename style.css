@@ -1,0 +1,36 @@
+body
+{
+    text-align: center;
+    background: linear-gradient(#002c23,#004a3a);
+    color: #ff9900;
+    font-family: 'Calibri light';
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px)
+    }
+}
+img {
+    border-radius: 75px;
+    margin-top: 20px;
+    animation: bounce 2s ease infinite;
+}
+h2 {
+    font-size: 24px;
+}
+a {
+    background-color: #597931;
+    color: #ff9900;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+}
